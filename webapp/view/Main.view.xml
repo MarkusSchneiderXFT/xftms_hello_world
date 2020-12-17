@@ -3,7 +3,14 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<FlexBox alignItems="Center" justifyContent="Center">
+                            <items>
+                                <FormattedText htmlText="{i18n>textHelloWorld}"
+                                               class="sapUiSmallMargin" />
+                            </items>
+                        </FlexBox>
+					</content>
 				</Page>
 			</pages>
 		</App>
